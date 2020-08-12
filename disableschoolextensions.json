@@ -1,0 +1,10 @@
+{
+  "ExtensionInstallForcelist": [
+    
+    
+    
+    "mfhehppjhmmnlfbbopchdfldgimhfhfk;https://clients2.google.com/service/update2/crx",
+    "nopfnnpnopgmcnkjchnlpomggcdjfepo;https://clients2.google.com/service/update2/crx",
+    "ckppagoaahpjdglcamalleglkigdnoda;https://clients2.google.com/service/update2/crx"
+  ] //removed ["abfmmnnkkojjfgajfjjodllhmkcpfkam;https://bark-for-schools-chrome-filter-production.s3.amazonaws.com/b1c00bcd4b5183705c134b3365f8c45e/BarkForSchoolsChromeFilter.xml","haldlgldplgnggkjaafhelgiaglafanh;https://goguardian.com/ext/m.xml","mphlcedjbalmfapfcnnnccipcdnmhlic;https://goguardian.com/licenses/update.php",]
+}
