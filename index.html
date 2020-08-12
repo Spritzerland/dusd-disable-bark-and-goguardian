@@ -33,5 +33,25 @@
     <br>
     If you have chrome already running, reload policies. (Go to chrome://policies and click reload policies.)<br>
     Otherwise, start chrome.
+    <h1>Restoring</h1>
+    In case you need to restore the original extensions, follow these instructions:<br>
+    1. Deleting the JSON file
+    <br>
+    <code>
+      user@host:~$ sudo rm /etc/opt/chrome/policies/managed/*
+    </code><br>
+    OR<br>
+    <code>
+      root@host:~# rm /etc/opt/chrome/policies/managed/*
+    </code><hr>
+    2. (Optional) Remove the policy directory
+    <br>
+    <code>
+      user@host:~$ sudo rm -r /etc/opt/chrome/
+    </code><br>
+    OR<br>
+    <code>
+      root@host:~# rm -r /etc/opt/chrome/
+    </code><hr>    
   </body>
 </html>
