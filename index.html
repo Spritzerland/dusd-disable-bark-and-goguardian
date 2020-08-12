@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      GoGaurdian and Bark removal process
+    </title>
+  </head>
+  <body>
+    <h1>Removing</h1>
+    I currently only have instructions for Linux. If you are not on a UN*X or Linux platform, sorry!
+    <br>
+    1. Make appropriate director(ies).<br>
+    <code>
+    user@host:~$ sudo mkdir -p /etc/opt/chrome/policies/managed
+    </code>
+    <br>
+    OR
+    <code>
+    root@host:~# mkdir -p /etc/opt/chrome/policies/managed
+    </code>
+    <hr>
+    2. Setting up the json file<br>
+    <code>
+    user@host:~$ sudo cd /etc/opt/chrome/policies/managed && wget https://justin226.github.io/dusd-disable-bark-and-gogaurdian/disableschoolextensions.json
+    </code>
+    <br>
+    OR
+    <code>
+    root@host:~# cd /etc/opt/chrome/policies/managed && wget https://justin226.github.io/dusd-disable-bark-and-gogaurdian/disableschoolextensions.json
+    </code>
+    <hr>
+    3. Restarting Chrome
+    <br>
+    If you have chrome already running, reload policies. (Go to chrome://policies and click reload policies.)<br>
+    Otherwise, start chrome.
+  </body>
+</html>
